@@ -8,5 +8,5 @@ Commands are read from the prompt, one line at a time. The program will implemen
 - **ls**: [directory] Displays the files within <directory>, or the current working directory if no argument is given
 - **cpin**: [src] [dst] Copies the contents of a file specified by the path [src] from the “real” unified file system (exposed by the shell that launched your program) into the file system loaded by your program, linking it there as the path specified by [dst]
 - **cpout**: [src] [dst] Copies the contents of a file specified by the path [src] from the file system loaded by your program into the “real” unified file system (exposed by the shell that launched your program), linking it there as the path specified by [dst]
-- **exit**: Exits your program.
+- **exit**: Exits the program.
 
