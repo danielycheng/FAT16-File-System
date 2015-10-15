@@ -1,6 +1,6 @@
 # FAT16 File System
 
-## Problem
+## Description
 This program implements a command line tool that can inspect and manipulate FAT16 file system data. The program acts like a very primitive shell/file-manager that bridges two file system namespaces: (1) the unified file system exposed by the shell that launched your program, and (2) the FAT16 file system that your file-manager will load.
 
 Commands are read from the prompt, one line at a time. The program will implement the following five commands:
